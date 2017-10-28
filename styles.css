@@ -1,0 +1,20 @@
+#parent {
+    display: block;
+    width: 500px;
+    margin: 0px auto;
+    background-color: grey;
+}
+
+#topBox:hover {
+    fill: blue;
+    width: 500px;
+    transition: width 2s ease-in;
+}
+
+#topBox {
+    width: 10px;
+}
+
+#circle:hover {
+    fill: red;
+}
